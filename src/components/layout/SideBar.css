@@ -1,0 +1,107 @@
+.side-bar{
+    position : fixed;
+    height: 100%;
+    width: 220px;
+    left : -150px;
+    z-index: 1;
+    top: 3.5em;
+    background-color: #1b1f29;
+    overflow-x: hidden;
+    padding-top: 10px;
+    display: flex;
+    justify-content: left;
+    transition: 850ms;
+}
+
+.side-bar:hover{
+    position : fixed;
+    height: 100%;
+    width: 220px;
+    left: 0px;
+    z-index: 1;
+    top: 3.5em;
+    background-color:#1f2433;
+    overflow-x: hidden;
+    padding-top: 10px;
+    display: flex;
+    justify-content: left;
+    transition: 850ms;
+}
+.side-bar:hover .nav-text a {
+    text-decoration:  none;
+    color: #d6d5d5;
+    font-size: 12px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    border-radius: 4px;
+}
+.side-bar:hover .nav-text:hover a {
+    padding-left: 24px;
+    font-size: 16px;
+    color: #f0efef;
+    transition: 60ms;
+}
+.side-bar:hover .nav-text:hover a svg{
+    font-size: 30px;
+    color: #f0efef;
+    transition: 60ms;
+}
+.side-bar:hover .nav-text-active a{
+    text-decoration:  none;
+    color: #ffffff;
+    font-size: 16px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 21px;
+    border-radius: 4px;
+}
+
+.side-bar:hover .nav-text a span, .side-bar:hover .nav-text-active a span{
+    display: inline-flex;
+    padding-left: 20px;
+    text-align: right;
+}
+
+
+.menu-bars {
+    margin-left: 3rem;
+    font-size: 2rem;
+    background: none;
+}
+
+.nav-text, .nav-text-active{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 0px 0px 0px;
+    list-style: none;
+    height: 40px;
+}
+
+.nav-text a span, .nav-text-active a span{
+    display: none;
+}
+.side-bar:hover .nav-text a svg, .side-bar:hover .nav-text-active a svg{
+    margin-left: 0px;
+}
+.nav-text a svg {
+    margin-left: 173px;
+    font-size: 18px;
+    color: rgb(192, 189, 189);
+}
+
+.nav-text-active a svg {
+    margin-left: 163px;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-menu-item{
+    padding: 0px;
+    width: 100%;
+}

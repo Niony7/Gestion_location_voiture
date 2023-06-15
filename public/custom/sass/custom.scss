@@ -1,0 +1,17 @@
+// In this scss you can overwrite all our scss, we suggested you to add your scss into this, so whenever the update comes it will not affect your code.
+@import './bootstrap//buttons';
+.btn-icon {
+    @extend .btn;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    margin: 0px 3px;
+}
+
+.btn-content {
+    position: relative;
+    right: 0px;
+    top: -8px;
+    font-size: 22px;
+}

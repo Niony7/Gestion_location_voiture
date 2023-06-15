@@ -1,0 +1,62 @@
+.authentification-fluid{
+    width: 450px;
+    margin: 50px auto;
+}
+
+.parametre-fluid{
+    width: 450px;
+    margin: 10px auto;
+}
+.page-titles {
+    
+    padding: 14px 10px;
+    margin: 15px -20px 15px -20px;
+    h4 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .breadcrumb {
+        padding: 0px;
+        margin: 0px;
+        background: transparent;
+        font-size: 14px;
+        font-weight: 500;
+
+        li {
+            
+            a{
+                color:$body-color;
+            }
+        }
+        .breadcrumb-item+.breadcrumb-item::before {
+            content: "/";
+            font-family: themify;
+            color: black;
+            font-size: 15px;
+            font-weight: 700;
+        }
+        .breadcrumb-item.active {
+            color: $primary;
+            font-weight: 500;
+            text-decoration: none;
+        }
+    }
+}
+.btn-primary, .btn-warning, .btn-outline-primary:hover, .btn-outline-warning:hover{
+    color: $white;
+      &:hover{
+          color: $white;
+      }
+  }
+  .btn-secondary{
+    border-color: $btn-secondary-border;  
+  }
+
+@media (max-width : 768px){
+    .authentification-fluid, .parametre-fluid{
+        width: auto;
+        margin: 50px auto;
+    }
+}
